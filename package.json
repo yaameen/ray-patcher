@@ -1,0 +1,18 @@
+{
+  "name": "ray-patcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "bin": {
+    "ray-patcher": "./main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "asar": "^3.2.0",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0"
+  }
+}
